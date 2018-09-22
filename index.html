@@ -6,12 +6,42 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>NeverMiss</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="main.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 </head>
 
 <body>
+  <img src="assets/NeverMiss.png" alt="logo">
 
+  <h2>CREATE A NOTIFICATION</h2>
+
+  <div class="wrapper">
+    <div class="main-input">
+      <label for="bus-id">Bus ID:</label>
+      <input type="text" name="" id="bus-id"> <br />
+      <label for="bus-number">Bus Number:</label>
+      <input type="text" name="" id="bus-number">
+    </div>
+
+    <div class="more-details">
+      <div class="customization">
+        <i class="fas fa-plus"></i> <span>More Customization</span>
+      </div>
+      <p class="additional">*choose when you would prefer to be notified</p>
+      <select>
+        <option value="1">Select time </option>
+        <option value="2">From 00:00 to 04:00</option>
+        <option value="3">From 04:00 to 14:00</option>
+        <option value="4">From 14:00 to 18:00</option>
+        <option value="5">From 18:00 to 22:00</option>
+        <option value="6">From 22:00 to 00:00</option>
+      </select>
+    </div>
+
+    <button class="save-continue">SAVE & CONTINUE</button>
+  </div>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>
