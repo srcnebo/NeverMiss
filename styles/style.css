@@ -59,3 +59,19 @@ select:active {
   align-self: center;
   margin-top: auto;
 }
+
+.ui-helper-hidden-accessible{
+    display:none !important;
+}
+
+.ui-menu-item .ui-menu-item-wrapper:hover
+{
+    border: none !important;
+    background-color: #ccc;
+}
+
+.uiOptions{
+  border: 1px solid #fff;
+  background-color: inherit;
+  width: 60%;
+}
