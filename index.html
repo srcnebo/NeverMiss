@@ -6,12 +6,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>NeverMiss</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="main.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 </head>
 
 <body>
+  <img src="https://raw.githubusercontent.com/YazanAlhalabi/NeverMiss/master/assets/NeverMiss.png" alt="logo">
 
+  <h2>CREATE A NOTIFICATION</h2>
+
+  <div class="wrapper">
+    <div class="main-input">
+      <label for="bus-id">Station Name:</label>
+      <input type="text" name="" id="stationId"> <br />
+      <label for="bus-number">Bus Number:</label>
+      <input type="text" name="" id="busNumber">
+    </div>
+
+    <div class="more-details">
+      <div class="customization">
+        <i class="fas fa-plus"></i> <span>More Customization</span>
+      </div>
+      <p class="additional">*choose when you would prefer to be notified</p>
+      <select id="periodSelector">
+        <option value="1">Select time </option>
+        <option value="04">From 00:00 to 04:00</option>
+        <option value="04">From 04:00 to 08:00</option>
+        <option value="14">From 08:00 to 14:00</option>
+        <option value="18">From 14:00 to 18:00</option>
+        <option value="22">From 18:00 to 22:00</option>
+        <option value="24">From 22:00 to 00:00</option>
+      </select>
+    </div>
+
+    <button class="save-continue" id="saveBtn">SAVE & CONTINUE</button>
+  </div>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>

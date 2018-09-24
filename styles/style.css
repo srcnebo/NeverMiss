@@ -1,0 +1,77 @@
+* {
+  color: #fff;
+}
+body {
+  background: #152738;
+  font-family: 'Exo', sans-serif;
+  color: #fff;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+}
+h2 {
+  text-align: center;
+}
+
+label {
+  font-weight: 600;
+}
+input,
+select {
+  display: block;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 3px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.9rem;
+  color: #fff;
+}
+select {
+  width: 90%;
+}
+select:active {
+  width: 50%;
+}
+.additional {
+  font-size: 0.8rem;
+  width: 100%;
+  color: #ccc;
+  margin-top: 25px;
+}
+.customization {
+  margin-top: 50px;
+}
+
+.save-continue {
+  color: goldenrod;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #fff;
+  background: transparent;
+  font-size: 1.4rem;
+  border-radius: 50px;
+  font-weight: 600;
+  align-self: center;
+  margin-top: auto;
+}
+
+.ui-helper-hidden-accessible{
+    display:none !important;
+}
+
+.ui-menu-item .ui-menu-item-wrapper:hover
+{
+    border: none !important;
+    background-color: #ccc;
+}
+
+.uiOptions{
+  border: 1px solid #fff;
+  background-color: inherit;
+  width: 60%;
+}
