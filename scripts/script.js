@@ -139,6 +139,7 @@ $(document).ready(function(){
             var arrayOfAlertText = res.data.alerts.map(function(v){
                     return (v.alertDescriptionTextTranslations[2].text);
                 });
+            console.table(arrayOfAlertText);
             // use the arrayOfAlertText to append to DOM
             return arrayOfAlertText;
         },
